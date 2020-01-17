@@ -1,0 +1,59 @@
+body{
+    size:100%;
+    background-color: #dceeff;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+}
+
+.svg{
+    display:flex;
+    flex-direction: row;
+    border-top:1px solid;
+}
+
+/* .content{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-around;
+    height:100%;
+    
+} */
+
+.card{
+    width:100%;
+    padding-top:60px;
+    padding-left:10px;
+    border-left:1px solid;
+    box-shadow: -10px 10px 8px 5px #888888;
+
+}
+
+/* this way the well divs are removed from the DOM initially and are triggered on by javascript 
+the instructions card is displayed until any hovering*/
+.well-1{
+    display: none;
+    
+}
+
+.well-2{
+    display: none;
+
+}
+
+.well-3{
+    display: none;
+
+}
+
+view{
+    
+}
+
+.heaters .well {
+	fill:red;
+	stroke:#000;
+}
+
