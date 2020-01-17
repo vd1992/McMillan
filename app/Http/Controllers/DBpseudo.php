@@ -19,7 +19,7 @@
 //             $dbCounter=$databaseValues[$x]+$dbCounter;
 //         } 
 
-//         compute the average after the loop has run its course, return the view and pass in the variable to display in view
+//         compute the average after the loop has run its course, return the view and pass in the variable to display in view rendered
 
 //         $average=$dbCounter/$dbLength;
 //         return view('welcome',$average);
